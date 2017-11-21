@@ -1,15 +1,14 @@
 """
 PRACTICE Test 1, problem 0.
 
-These problems illustrate concepts that previous problems have not
-emphasized:
+These problems illustrate concepts that previous problems have not emphasized:
   -- determining whether a number is odd or even (Problem 0a)
   -- returning True or False (Problem 0a)
   -- is_prime (Problem 0b)
   -- animation (Problem 0c)
 
 Authors: David Mutchler, Valerie Galluzzi, Mark Hays, Amanda Stouder,
-         their colleagues and PUT_YOUR_NAME_HERE.  September 2016.
+         their colleagues and PUT_YOUR_NAME_HERE.
 """  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 import rosegraphics as rg
@@ -17,9 +16,9 @@ import rosegraphics as rg
 
 def main():
     """ Calls the   TEST   functions in this module. """
-    test_problem0a()
-    test_problem0b()
-    test_problem0c()
+    run_test_problem0a()
+    run_test_problem0b()
+    run_test_problem0c()
 
 
 def is_prime(n):
@@ -42,7 +41,7 @@ def is_prime(n):
     return True
     # ------------------------------------------------------------------
     # Students:
-    #   Do NOT touch the above  is_prime  function - it has no TODO.
+    #   Do NOT touch the above  is_prime  function - it has no TO DO.
     #   Do NOT copy code from this function.
     #
     # Instead, ** CALL ** this function as needed in the problems below.
@@ -60,7 +59,7 @@ def sum_of_digits(number):
     """
     # ------------------------------------------------------------------
     # Students:
-    #   Do NOT touch the above  sum_of_digits function - it has no TODO.
+    #   Do NOT touch the above  sum_of_digits function - it has no TO DO.
     #   Do NOT copy code from this function.
     #
     # Instead, ** CALL ** this function as needed in the problems below.
@@ -78,7 +77,7 @@ def sum_of_digits(number):
     return digit_sum
 
 
-def test_problem0a():
+def run_test_problem0a():
     """ Tests the   problem0a   function. """
     print()
     print('--------------------------------------------------')
@@ -166,7 +165,7 @@ def problem0a(n):
     # ------------------------------------------------------------------
 
 
-def test_problem0b():
+def run_test_problem0b():
     """ Tests the   problem0b   function. """
     print()
     print('--------------------------------------------------')
@@ -230,7 +229,7 @@ def problem0b(n):
     # ------------------------------------------------------------------
 
 
-def test_problem0c():
+def run_test_problem0c():
     """ Tests the   problem0c  function. """
     print()
     print('--------------------------------------------------')

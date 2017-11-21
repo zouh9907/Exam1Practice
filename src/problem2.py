@@ -2,7 +2,7 @@
 PRACTICE Test 1, problem 2.
 
 Authors: David Mutchler, Valerie Galluzzi, Mark Hays, Amanda Stouder,
-         their colleagues and PUT_YOUR_NAME_HERE.  September 2016.
+         their colleagues and PUT_YOUR_NAME_HERE.
 """  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 import rosegraphics as rg
@@ -30,11 +30,11 @@ import rosegraphics as rg
 
 def main():
     """ Calls the   TEST   functions in this module. """
-    test_problem2a()
-    test_problem2b()
+    run_test_problem2a()
+    run_test_problem2b()
 
 
-def test_problem2a():
+def run_test_problem2a():
     """ Tests the   problem2a  function. """
     print()
     print('--------------------------------------------------')
@@ -111,7 +111,7 @@ def problem2a(circle, rectangle, window):
     #    TIME ESTIMATE:   10 to 15 minutes.
     # ------------------------------------------------------------------
 
-def test_problem2b():
+def run_test_problem2b():
     """ Tests the  problem2b   function. """
     print()
     print('--------------------------------------------------')

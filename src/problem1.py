@@ -2,7 +2,7 @@
 PRACTICE Test 1, problem 1.
 
 Authors: David Mutchler, Valerie Galluzzi, Mark Hays, Amanda Stouder,
-         their colleagues and PUT_YOUR_NAME_HERE.  September 2016.
+         their colleagues and PUT_YOUR_NAME_HERE.
 """  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 ########################################################################
@@ -28,9 +28,9 @@ Authors: David Mutchler, Valerie Galluzzi, Mark Hays, Amanda Stouder,
 
 def main():
     """ Calls the   TEST   functions in this module. """
-    test_problem1a()
-    test_problem1b()
-    test_problem1c()
+    run_test_problem1a()
+    run_test_problem1b()
+    run_test_problem1c()
 
 
 def is_prime(n):
@@ -53,7 +53,7 @@ def is_prime(n):
     return True
     # ------------------------------------------------------------------
     # Students:
-    #   Do NOT touch the above  is_prime  function - it has no TODO.
+    #   Do NOT touch the above  is_prime  function - it has no TO DO.
     #   Do NOT copy code from this function.
     #
     # Instead, ** CALL ** this function as needed in the problems below.
@@ -71,7 +71,7 @@ def sum_of_digits(number):
     """
     # ------------------------------------------------------------------
     # Students:
-    #   Do NOT touch the above  sum_of_digits function - it has no TODO.
+    #   Do NOT touch the above  sum_of_digits function - it has no TO DO.
     #   Do NOT copy code from this function.
     #
     # Instead, ** CALL ** this function as needed in the problems below.
@@ -89,7 +89,7 @@ def sum_of_digits(number):
     return digit_sum
 
 
-def test_problem1a():
+def run_test_problem1a():
     """ Tests the   problem1a   function. """
     # ------------------------------------------------------------------
     # TODO: 2. Implement this TEST function.
@@ -121,7 +121,7 @@ def test_problem1a():
     print('       actual:  ', answer)
 
     # ------------------------------------------------------------------
-    # TODO: 2 (continued).
+    # TO DO: 2 (continued).
     # Below this comment, add 2 more test cases of your own choosing.
     # ------------------------------------------------------------------
 
@@ -154,7 +154,7 @@ def problem1a(m, n):
     # ------------------------------------------------------------------
 
 
-def test_problem1b():
+def run_test_problem1b():
     """ Tests the   problem1b   function. """
     # ------------------------------------------------------------------
     # TODO: 4. Implement this TEST function.
@@ -204,7 +204,7 @@ def problem1b(m, f):
     # ------------------------------------------------------------------
 
 
-def test_problem1c():
+def run_test_problem1c():
     """ Tests the   problem1c   function. """
     print()
     print('--------------------------------------------------')

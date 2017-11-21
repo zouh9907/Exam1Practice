@@ -2,7 +2,7 @@
 PRACTICE Test 1, problem 3.
 
 Authors: David Mutchler, Valerie Galluzzi, Mark Hays, Amanda Stouder,
-         their colleagues and PUT_YOUR_NAME_HERE.  September 2016.
+         their colleagues and PUT_YOUR_NAME_HERE.
 """  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 import rosegraphics as rg
@@ -30,11 +30,11 @@ import rosegraphics as rg
 
 def main():
     """ Calls the   TEST   functions in this module. """
-    test_problem3a()
-    test_problem3b()
+    run_test_problem3a()
+    run_test_problem3b()
 
 
-def test_problem3a():
+def run_test_problem3a():
     """ Tests the   problem3a   function. """
     # ------------------------------------------------------------------
     # TODO: 2. Implement this TEST function.
@@ -98,7 +98,7 @@ def test_problem3a():
     window3.close_on_mouse_click()
 
     # ------------------------------------------------------------------
-    # TODO: 2 (continued).
+    # TO DO: 2 (continued).
     # Below this comment (or integrated with one of the above tests,
     # your choice), add 1 more test case of your own choosing.
     # ------------------------------------------------------------------
@@ -147,7 +147,7 @@ def problem3a(window, point, n):
     # ------------------------------------------------------------------
 
 
-def test_problem3b():
+def run_test_problem3b():
     """ Tests the   problem3b   function. """
     # Test 1 is ALREADY DONE (here).
     expected = 158
